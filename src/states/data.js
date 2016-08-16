@@ -22,7 +22,8 @@ export default new RoutableState('data', { concurrent: true }, function() {
   })
 
   this.state('sort', function() {
-    this.state('sortBy', function() {
+    // history state
+    this.state('sortBy', { H: true }, function() {
       this.C(({ sortBy }) => {
         if (this.resolve(sortBy)) return sortBy
       })
