@@ -69,7 +69,7 @@ export default [
     name: 'Virginia',
     rank: 12,
     population: 8260405,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/virginie/virginie/virginie54.svg'
   },
   {
     name: 'Washington',
@@ -81,25 +81,25 @@ export default [
     name: 'Massachusetts',
     rank: 14,
     population: 6692824,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/massachusetts/massachusetts/massachusetts54.svg'
   },
   {
     name: 'Arizona',
     rank: 15,
     population: 6626624,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/arizona/arizona/arizona54.svg'
   },
   {
     name: 'Indiana',
     rank: 16,
     population: 6570902,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/indiana/indiana/indiana54.svg'
   },
   {
     name: 'Tennessee',
     rank: 17,
     population: 6495978,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/tennessee/tennessee/tennessee54.svg'
   },
   {
     name: 'Missouri',
@@ -111,25 +111,25 @@ export default [
     name: 'Maryland',
     rank: 19,
     population: 5928814,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/maryland/maryland/maryland54.svg'
   },
   {
     name: 'Wisconsin',
     rank: 20,
     population: 5742713,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/wisconsin/wisconsin/wisconsin54.svg'
   },
   {
     name: 'Minnesota',
     rank: 21,
     population: 5420380,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/minnesota/minnesota/minnesota54.svg'
   },
   {
     name: 'Colorado',
     rank: 22,
     population: 5268367,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/colorado/colorado/colorado54.svg'
   },
   {
     name: 'Alabama',
@@ -141,19 +141,19 @@ export default [
     name: 'South Carolina',
     rank: 24,
     population: 4774839,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/carolinesud/carolinesud/carolinesud54.svg'
   },
   {
     name: 'Louisiana',
     rank: 25,
     population: 4625470,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/louisiana/louisiana/louisiana54.svg'
   },
   {
     name: 'Kentucky',
     rank: 26,
     population: 4395295,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/kentucky/kentucky/kentucky54.svg'
   },
   {
     name: 'Oregon',
@@ -165,49 +165,49 @@ export default [
     name: 'Oklahoma',
     rank: 28,
     population: 3850568,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/oklahoma/oklahoma/oklahoma54.svg'
   },
   {
     name: 'Connecticut',
     rank: 29,
     population: 3596080,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/connecticut/connecticut/connecticut54.svg'
   },
   {
     name: 'Iowa',
     rank: 30,
     population: 3090416,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/iowa/iowa/iowa54.svg'
   },
   {
     name: 'Mississippi',
     rank: 31,
     population: 2991207,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/mississippi/mississippi/mississippi54.svg'
   },
   {
     name: 'Arkansas',
     rank: 32,
     population: 2959373,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/arkansas/arkansas/arkansas54.svg'
   },
   {
     name: 'Utah',
     rank: 33,
     population: 2900872,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/utah/utah/utah54.svg'
   },
   {
     name: 'Kansas',
     rank: 34,
     population: 2893957,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/kansas/kansas/kansas54.svg'
   },
   {
     name: 'Nevada',
     rank: 35,
     population: 2790136,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/nevada/nevada/nevada54.svg'
   },
   {
     name: 'New Mexico',
@@ -219,37 +219,37 @@ export default [
     name: 'Nebraska',
     rank: 37,
     population: 1868516,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/nebraska/nebraska/nebraska54.svg'
   },
   {
     name: 'West Virginia',
     rank: 38,
     population: 1854304,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/virginieoccidentale/virginieoccidentale/virginieoccidentale50.svg'
   },
   {
     name: 'Idaho',
     rank: 39,
     population: 1612136,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/idaho/idaho/idaho54.svg'
   },
   {
     name: 'Hawaii',
     rank: 40,
     population: 1404054,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/hawai/hawai/hawai14.svg'
   },
   {
     name: 'Maine',
     rank: 41,
     population: 1328302,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/maine/maine/maine54.svg'
   },
   {
     name: 'New Hampshire',
     rank: 42,
     population: 1323459,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/newhampshire/newhampshire/newhampshire54.svg'
   },
   {
     name: 'Rhode Island',
@@ -261,7 +261,7 @@ export default [
     name: 'Montana',
     rank: 44,
     population: 1015165,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/montana/montana/montana54.svg'
   },
   {
     name: 'Delaware',
