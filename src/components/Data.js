@@ -9,12 +9,31 @@ import DataControls from './DataControls'
 import StateModal from './StateModal'
 import markTerms from './markTerms'
 
-const StateRow = ({state, highlight}) => (
+const StateRow = ({ state, highlight }) => (
   <tr onClick={() => statechart.send('stateClicked', state.name)}>
     <td>{state.rank}</td>
     <td>{markTerms(state.name, highlight, 'text-info bg-info')}</td>
     <td className="text-right">{state.population.toLocaleString()}</td>
   </tr>
+)
+
+const DataRows = ({ rows, filter }) => (
+  <div className="panel panel-default">
+    <table className="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th style={{ width: '2em' }}>#</th>
+          <th>Name</th>
+          <th className="text-right">Population</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map(usState => (
+          <StateRow key={usState.name} state={usState} highlight={filter}/>
+        ))}
+      </tbody>
+    </table>
+  </div>
 )
 
 export default React.createClass({
@@ -56,9 +75,13 @@ export default React.createClass({
           />
         }
         {!showDataControls &&
-          <button className="btn btn-sm btn-default" onClick={this.handleClickToggleDataControls}>
-            Filter/sort
-          </button>
+          <div>
+            <button className="btn btn-sm btn-default" onClick={this.handleClickToggleDataControls}>
+              <span className="glyphicon glyphicon-filter" />
+            </button>
+            <br />
+            &nbsp;
+          </div>
         }
 
         <div className="row">
@@ -75,20 +98,7 @@ export default React.createClass({
           }
 
           <div className={cx({ 'col-xs-9': showDataControls, 'col-xs-12': !showDataControls })}>
-            <table className="table table-striped table-hover">
-              <thead>
-                <tr>
-                  <th style={{ width: '2em' }}>#</th>
-                  <th>Name</th>
-                  <th className="text-right">Population</th>
-                </tr>
-              </thead>
-              <tbody>
-                {rows.map(usState => (
-                  <StateRow key={usState.name} state={usState} highlight={filter}/>
-                ))}
-              </tbody>
-            </table>
+            <DataRows rows={rows} filter={filter} />
           </div>
         </div>
       </div>

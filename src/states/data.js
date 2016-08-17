@@ -10,14 +10,29 @@ export default new RoutableState('data', { concurrent: true }, function() {
   })
 
   this.state('filter', function() {
-    this.enter(({ filter = '' }) => {
-      this.params({ filter: filter || undefined })
-      appstate.filter = filter
-      appstate.data = usStates.filter((state) => state.name.toLowerCase().indexOf(filter.toLowerCase()) > -1)
-    })
+    this.C(({ filter }) => filter ? 'on' : 'off')
 
     this.event('filterChanged', (filter) => {
-      this.goto('.', { force: true, context: { filter } })
+      if (!filter) this.goto('off')
+
+      this.goto('on', { force: true, context: { filter } })
+    })
+
+    this.state('off', function() {
+      this.enter(() => {
+        this.params({ filter: undefined })
+        appstate.filter = undefined
+        appstate.data = usStates.slice()
+
+      })
+    })
+
+    this.state('on', function() {
+      this.enter(({ filter = '' }) => {
+        this.params({ filter: filter || undefined })
+        appstate.filter = filter
+        appstate.data = usStates.filter((state) => state.name.toLowerCase().indexOf(filter.toLowerCase()) > -1)
+      })
     })
   })
 
