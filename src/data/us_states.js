@@ -39,7 +39,7 @@ export default [
     name: 'Ohio',
     rank: 7,
     population: 11570808,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/ohio/ohio/ohio54.svg'
   },
   {
     name: 'Georgia',
@@ -51,7 +51,7 @@ export default [
     name: 'Michigan',
     rank: 9,
     population: 9895622,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/michigan/michigan/michigan54.svg'
   },
   {
     name: 'North Carolina',

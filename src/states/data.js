@@ -30,12 +30,11 @@ export default new RoutableState('data', { concurrent: true }, function() {
 
       this.event('sortChanged', (sortBy) => {
         if (this.resolve(sortBy)) this.goto(sortBy)
-        else this.goto('off')
+        else this.goto('none')
       })
 
       this.state('none', function() {
         this.enter(() => {
-          appstate.sortedData = undefined
           appstate.sortedBy = 'none'
         })
       });
@@ -53,7 +52,7 @@ export default new RoutableState('data', { concurrent: true }, function() {
     })
   })
 
-  this.state('dataControls', function() {
+  this.state('dataControls', { H: true }, function() {
     this.C(({ showDataControls }) => {
       if (showDataControls) return 'on'
     })
