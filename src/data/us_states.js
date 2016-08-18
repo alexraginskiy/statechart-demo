@@ -21,7 +21,7 @@ export default [
     name: 'Florida',
     rank: 4,
     population: 19552860,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/floride/floride/floride54.svg'
   },
   {
     name: 'Illinois',
@@ -33,7 +33,7 @@ export default [
     name: 'Pennsylvania',
     rank: 6,
     population: 12773801,
-    image: 'http://d-maps.com/m/america/usa/illinois/illinois/illinois54.svg'
+    image: 'http://d-maps.com/m/america/usa/pennsylvanie/pennsylvanie/pennsylvanie54.svg'
   },
   {
     name: 'Ohio',
